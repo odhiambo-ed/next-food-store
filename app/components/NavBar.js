@@ -1,5 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
+import { CiMenuKebab } from "react-icons/ci";
+
 function NavBar() {
   return (
       <nav className="container pt-3">
@@ -13,6 +15,7 @@ function NavBar() {
 
                   <button className="bg-blue-500 hover:bg-blue-700 text-white font-normal py-2 px-4 rounded">Sign Up</button>
               </ul>
+              <CiMenuKebab className='md:hidden text-2xl text-blue-500 hover:text-blue-700' />
           </div>
     </nav>
   )
